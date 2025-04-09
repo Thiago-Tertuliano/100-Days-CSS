@@ -1,17 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
-
-h1 {
-  font-size: 36px;
-  font-weight: 700;
-  text-align: center;
-  color: #333;
-  margin: 0;
-  padding: 100px 0;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  font-family: "Open Sans", Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-
 .frame {
   position: absolute;
   top: 50%;
