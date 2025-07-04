@@ -1,0 +1,2234 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  background: #9B59B6;
+  color: #fff;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wave {
+  position: absolute;
+  height: 2px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wave .dot {
+  float: left;
+  width: 2px;
+  height: 2px;
+  border-radius: 1px;
+  background: #fff;
+}
+.wave .dot-1 {
+  animation: move-1 3s ease-in-out infinite;
+}
+.wave .dot-2 {
+  animation: move-2 3s ease-in-out infinite;
+}
+.wave .dot-3 {
+  animation: move-3 3s ease-in-out infinite;
+}
+.wave .dot-4 {
+  animation: move-4 3s ease-in-out infinite;
+}
+.wave .dot-5 {
+  animation: move-5 3s ease-in-out infinite;
+}
+.wave .dot-6 {
+  animation: move-6 3s ease-in-out infinite;
+}
+.wave .dot-7 {
+  animation: move-7 3s ease-in-out infinite;
+}
+.wave .dot-8 {
+  animation: move-8 3s ease-in-out infinite;
+}
+.wave .dot-9 {
+  animation: move-9 3s ease-in-out infinite;
+}
+.wave .dot-10 {
+  animation: move-10 3s ease-in-out infinite;
+}
+.wave .dot-11 {
+  animation: move-11 3s ease-in-out infinite;
+}
+.wave .dot-12 {
+  animation: move-12 3s ease-in-out infinite;
+}
+.wave .dot-13 {
+  animation: move-13 3s ease-in-out infinite;
+}
+.wave .dot-14 {
+  animation: move-14 3s ease-in-out infinite;
+}
+.wave .dot-15 {
+  animation: move-15 3s ease-in-out infinite;
+}
+.wave .dot-16 {
+  animation: move-16 3s ease-in-out infinite;
+}
+.wave .dot-17 {
+  animation: move-17 3s ease-in-out infinite;
+}
+.wave .dot-18 {
+  animation: move-18 3s ease-in-out infinite;
+}
+.wave .dot-19 {
+  animation: move-19 3s ease-in-out infinite;
+}
+.wave .dot-20 {
+  animation: move-20 3s ease-in-out infinite;
+}
+.wave .dot-21 {
+  animation: move-21 3s ease-in-out infinite;
+}
+.wave .dot-22 {
+  animation: move-22 3s ease-in-out infinite;
+}
+.wave .dot-23 {
+  animation: move-23 3s ease-in-out infinite;
+}
+.wave .dot-24 {
+  animation: move-24 3s ease-in-out infinite;
+}
+.wave .dot-25 {
+  animation: move-25 3s ease-in-out infinite;
+}
+.wave .dot-26 {
+  animation: move-26 3s ease-in-out infinite;
+}
+.wave .dot-27 {
+  animation: move-27 3s ease-in-out infinite;
+}
+.wave .dot-28 {
+  animation: move-28 3s ease-in-out infinite;
+}
+.wave .dot-29 {
+  animation: move-29 3s ease-in-out infinite;
+}
+.wave .dot-30 {
+  animation: move-30 3s ease-in-out infinite;
+}
+.wave .dot-31 {
+  animation: move-31 3s ease-in-out infinite;
+}
+.wave .dot-32 {
+  animation: move-32 3s ease-in-out infinite;
+}
+.wave .dot-33 {
+  animation: move-33 3s ease-in-out infinite;
+}
+.wave .dot-34 {
+  animation: move-34 3s ease-in-out infinite;
+}
+.wave .dot-35 {
+  animation: move-35 3s ease-in-out infinite;
+}
+.wave .dot-36 {
+  animation: move-36 3s ease-in-out infinite;
+}
+.wave .dot-37 {
+  animation: move-37 3s ease-in-out infinite;
+}
+.wave .dot-38 {
+  animation: move-38 3s ease-in-out infinite;
+}
+.wave .dot-39 {
+  animation: move-39 3s ease-in-out infinite;
+}
+.wave .dot-40 {
+  animation: move-40 3s ease-in-out infinite;
+}
+.wave .dot-41 {
+  animation: move-41 3s ease-in-out infinite;
+}
+.wave .dot-42 {
+  animation: move-42 3s ease-in-out infinite;
+}
+.wave .dot-43 {
+  animation: move-43 3s ease-in-out infinite;
+}
+.wave .dot-44 {
+  animation: move-44 3s ease-in-out infinite;
+}
+.wave .dot-45 {
+  animation: move-45 3s ease-in-out infinite;
+}
+.wave .dot-46 {
+  animation: move-46 3s ease-in-out infinite;
+}
+.wave .dot-47 {
+  animation: move-47 3s ease-in-out infinite;
+}
+.wave .dot-48 {
+  animation: move-48 3s ease-in-out infinite;
+}
+.wave .dot-49 {
+  animation: move-49 3s ease-in-out infinite;
+}
+.wave .dot-50 {
+  animation: move-50 3s ease-in-out infinite;
+}
+.wave .dot-51 {
+  animation: move-51 3s ease-in-out infinite;
+}
+.wave .dot-52 {
+  animation: move-52 3s ease-in-out infinite;
+}
+.wave .dot-53 {
+  animation: move-53 3s ease-in-out infinite;
+}
+.wave .dot-54 {
+  animation: move-54 3s ease-in-out infinite;
+}
+.wave .dot-55 {
+  animation: move-55 3s ease-in-out infinite;
+}
+.wave .dot-56 {
+  animation: move-56 3s ease-in-out infinite;
+}
+.wave .dot-57 {
+  animation: move-57 3s ease-in-out infinite;
+}
+.wave .dot-58 {
+  animation: move-58 3s ease-in-out infinite;
+}
+.wave .dot-59 {
+  animation: move-59 3s ease-in-out infinite;
+}
+.wave .dot-60 {
+  animation: move-60 3s ease-in-out infinite;
+}
+.wave .dot-61 {
+  animation: move-61 3s ease-in-out infinite;
+}
+.wave .dot-62 {
+  animation: move-62 3s ease-in-out infinite;
+}
+.wave .dot-63 {
+  animation: move-63 3s ease-in-out infinite;
+}
+.wave .dot-64 {
+  animation: move-64 3s ease-in-out infinite;
+}
+.wave .dot-65 {
+  animation: move-65 3s ease-in-out infinite;
+}
+.wave .dot-66 {
+  animation: move-66 3s ease-in-out infinite;
+}
+.wave .dot-67 {
+  animation: move-67 3s ease-in-out infinite;
+}
+.wave .dot-68 {
+  animation: move-68 3s ease-in-out infinite;
+}
+.wave .dot-69 {
+  animation: move-69 3s ease-in-out infinite;
+}
+.wave .dot-70 {
+  animation: move-70 3s ease-in-out infinite;
+}
+.wave .dot-71 {
+  animation: move-71 3s ease-in-out infinite;
+}
+.wave .dot-72 {
+  animation: move-72 3s ease-in-out infinite;
+}
+.wave .dot-73 {
+  animation: move-73 3s ease-in-out infinite;
+}
+.wave .dot-74 {
+  animation: move-74 3s ease-in-out infinite;
+}
+.wave .dot-75 {
+  animation: move-75 3s ease-in-out infinite;
+}
+.wave .dot-76 {
+  animation: move-76 3s ease-in-out infinite;
+}
+.wave .dot-77 {
+  animation: move-77 3s ease-in-out infinite;
+}
+.wave .dot-78 {
+  animation: move-78 3s ease-in-out infinite;
+}
+.wave .dot-79 {
+  animation: move-79 3s ease-in-out infinite;
+}
+.wave .dot-80 {
+  animation: move-80 3s ease-in-out infinite;
+}
+.wave .dot-81 {
+  animation: move-81 3s ease-in-out infinite;
+}
+.wave .dot-82 {
+  animation: move-82 3s ease-in-out infinite;
+}
+.wave .dot-83 {
+  animation: move-83 3s ease-in-out infinite;
+}
+.wave .dot-84 {
+  animation: move-84 3s ease-in-out infinite;
+}
+.wave .dot-85 {
+  animation: move-85 3s ease-in-out infinite;
+}
+.wave .dot-86 {
+  animation: move-86 3s ease-in-out infinite;
+}
+.wave .dot-87 {
+  animation: move-87 3s ease-in-out infinite;
+}
+.wave .dot-88 {
+  animation: move-88 3s ease-in-out infinite;
+}
+.wave .dot-89 {
+  animation: move-89 3s ease-in-out infinite;
+}
+.wave .dot-90 {
+  animation: move-90 3s ease-in-out infinite;
+}
+.wave .dot-91 {
+  animation: move-91 3s ease-in-out infinite;
+}
+.wave .dot-92 {
+  animation: move-92 3s ease-in-out infinite;
+}
+.wave .dot-93 {
+  animation: move-93 3s ease-in-out infinite;
+}
+.wave .dot-94 {
+  animation: move-94 3s ease-in-out infinite;
+}
+.wave .dot-95 {
+  animation: move-95 3s ease-in-out infinite;
+}
+.wave .dot-96 {
+  animation: move-96 3s ease-in-out infinite;
+}
+.wave .dot-97 {
+  animation: move-97 3s ease-in-out infinite;
+}
+.wave .dot-98 {
+  animation: move-98 3s ease-in-out infinite;
+}
+.wave .dot-99 {
+  animation: move-99 3s ease-in-out infinite;
+}
+.wave .dot-100 {
+  animation: move-100 3s ease-in-out infinite;
+}
+.wave .dot-101 {
+  animation: move-101 3s ease-in-out infinite;
+}
+.wave .dot-102 {
+  animation: move-102 3s ease-in-out infinite;
+}
+.wave .dot-103 {
+  animation: move-103 3s ease-in-out infinite;
+}
+.wave .dot-104 {
+  animation: move-104 3s ease-in-out infinite;
+}
+.wave .dot-105 {
+  animation: move-105 3s ease-in-out infinite;
+}
+.wave .dot-106 {
+  animation: move-106 3s ease-in-out infinite;
+}
+.wave .dot-107 {
+  animation: move-107 3s ease-in-out infinite;
+}
+.wave .dot-108 {
+  animation: move-108 3s ease-in-out infinite;
+}
+.wave .dot-109 {
+  animation: move-109 3s ease-in-out infinite;
+}
+.wave .dot-110 {
+  animation: move-110 3s ease-in-out infinite;
+}
+.wave .dot-111 {
+  animation: move-111 3s ease-in-out infinite;
+}
+.wave .dot-112 {
+  animation: move-112 3s ease-in-out infinite;
+}
+.wave .dot-113 {
+  animation: move-113 3s ease-in-out infinite;
+}
+.wave .dot-114 {
+  animation: move-114 3s ease-in-out infinite;
+}
+.wave .dot-115 {
+  animation: move-115 3s ease-in-out infinite;
+}
+.wave .dot-116 {
+  animation: move-116 3s ease-in-out infinite;
+}
+.wave .dot-117 {
+  animation: move-117 3s ease-in-out infinite;
+}
+.wave .dot-118 {
+  animation: move-118 3s ease-in-out infinite;
+}
+.wave .dot-119 {
+  animation: move-119 3s ease-in-out infinite;
+}
+.wave .dot-120 {
+  animation: move-120 3s ease-in-out infinite;
+}
+.wave .dot-121 {
+  animation: move-121 3s ease-in-out infinite;
+}
+.wave .dot-122 {
+  animation: move-122 3s ease-in-out infinite;
+}
+.wave .dot-123 {
+  animation: move-123 3s ease-in-out infinite;
+}
+.wave .dot-124 {
+  animation: move-124 3s ease-in-out infinite;
+}
+.wave .dot-125 {
+  animation: move-125 3s ease-in-out infinite;
+}
+.wave .dot-126 {
+  animation: move-126 3s ease-in-out infinite;
+}
+.wave .dot-127 {
+  animation: move-127 3s ease-in-out infinite;
+}
+.wave .dot-128 {
+  animation: move-128 3s ease-in-out infinite;
+}
+.wave .dot-129 {
+  animation: move-129 3s ease-in-out infinite;
+}
+.wave .dot-130 {
+  animation: move-130 3s ease-in-out infinite;
+}
+.wave .dot-131 {
+  animation: move-131 3s ease-in-out infinite;
+}
+.wave .dot-132 {
+  animation: move-132 3s ease-in-out infinite;
+}
+.wave .dot-133 {
+  animation: move-133 3s ease-in-out infinite;
+}
+.wave .dot-134 {
+  animation: move-134 3s ease-in-out infinite;
+}
+.wave .dot-135 {
+  animation: move-135 3s ease-in-out infinite;
+}
+.wave .dot-136 {
+  animation: move-136 3s ease-in-out infinite;
+}
+.wave .dot-137 {
+  animation: move-137 3s ease-in-out infinite;
+}
+.wave .dot-138 {
+  animation: move-138 3s ease-in-out infinite;
+}
+.wave .dot-139 {
+  animation: move-139 3s ease-in-out infinite;
+}
+.wave .dot-140 {
+  animation: move-140 3s ease-in-out infinite;
+}
+.wave .dot-141 {
+  animation: move-141 3s ease-in-out infinite;
+}
+.wave .dot-142 {
+  animation: move-142 3s ease-in-out infinite;
+}
+.wave .dot-143 {
+  animation: move-143 3s ease-in-out infinite;
+}
+.wave .dot-144 {
+  animation: move-144 3s ease-in-out infinite;
+}
+.wave .dot-145 {
+  animation: move-145 3s ease-in-out infinite;
+}
+.wave .dot-146 {
+  animation: move-146 3s ease-in-out infinite;
+}
+.wave .dot-147 {
+  animation: move-147 3s ease-in-out infinite;
+}
+.wave .dot-148 {
+  animation: move-148 3s ease-in-out infinite;
+}
+.wave .dot-149 {
+  animation: move-149 3s ease-in-out infinite;
+}
+.wave .dot-150 {
+  animation: move-150 3s ease-in-out infinite;
+}
+.wave .dot-151 {
+  animation: move-151 3s ease-in-out infinite;
+}
+.wave .dot-152 {
+  animation: move-152 3s ease-in-out infinite;
+}
+.wave .dot-153 {
+  animation: move-153 3s ease-in-out infinite;
+}
+.wave .dot-154 {
+  animation: move-154 3s ease-in-out infinite;
+}
+.wave .dot-155 {
+  animation: move-155 3s ease-in-out infinite;
+}
+.wave .dot-156 {
+  animation: move-156 3s ease-in-out infinite;
+}
+.wave .dot-157 {
+  animation: move-157 3s ease-in-out infinite;
+}
+.wave .dot-158 {
+  animation: move-158 3s ease-in-out infinite;
+}
+.wave .dot-159 {
+  animation: move-159 3s ease-in-out infinite;
+}
+.wave .dot-160 {
+  animation: move-160 3s ease-in-out infinite;
+}
+.wave .dot-161 {
+  animation: move-161 3s ease-in-out infinite;
+}
+.wave .dot-162 {
+  animation: move-162 3s ease-in-out infinite;
+}
+.wave .dot-163 {
+  animation: move-163 3s ease-in-out infinite;
+}
+.wave .dot-164 {
+  animation: move-164 3s ease-in-out infinite;
+}
+.wave .dot-165 {
+  animation: move-165 3s ease-in-out infinite;
+}
+.wave .dot-166 {
+  animation: move-166 3s ease-in-out infinite;
+}
+.wave .dot-167 {
+  animation: move-167 3s ease-in-out infinite;
+}
+.wave .dot-168 {
+  animation: move-168 3s ease-in-out infinite;
+}
+.wave .dot-169 {
+  animation: move-169 3s ease-in-out infinite;
+}
+.wave .dot-170 {
+  animation: move-170 3s ease-in-out infinite;
+}
+.wave .dot-171 {
+  animation: move-171 3s ease-in-out infinite;
+}
+.wave .dot-172 {
+  animation: move-172 3s ease-in-out infinite;
+}
+.wave .dot-173 {
+  animation: move-173 3s ease-in-out infinite;
+}
+.wave .dot-174 {
+  animation: move-174 3s ease-in-out infinite;
+}
+.wave .dot-175 {
+  animation: move-175 3s ease-in-out infinite;
+}
+.wave .dot-176 {
+  animation: move-176 3s ease-in-out infinite;
+}
+.wave .dot-177 {
+  animation: move-177 3s ease-in-out infinite;
+}
+.wave .dot-178 {
+  animation: move-178 3s ease-in-out infinite;
+}
+.wave .dot-179 {
+  animation: move-179 3s ease-in-out infinite;
+}
+.wave .dot-180 {
+  animation: move-180 3s ease-in-out infinite;
+}
+.wave .dot-181 {
+  animation: move-181 3s ease-in-out infinite;
+}
+.wave .dot-182 {
+  animation: move-182 3s ease-in-out infinite;
+}
+.wave .dot-183 {
+  animation: move-183 3s ease-in-out infinite;
+}
+.wave .dot-184 {
+  animation: move-184 3s ease-in-out infinite;
+}
+.wave .dot-185 {
+  animation: move-185 3s ease-in-out infinite;
+}
+.wave .dot-186 {
+  animation: move-186 3s ease-in-out infinite;
+}
+.wave .dot-187 {
+  animation: move-187 3s ease-in-out infinite;
+}
+.wave .dot-188 {
+  animation: move-188 3s ease-in-out infinite;
+}
+.wave .dot-189 {
+  animation: move-189 3s ease-in-out infinite;
+}
+.wave .dot-190 {
+  animation: move-190 3s ease-in-out infinite;
+}
+.wave .dot-191 {
+  animation: move-191 3s ease-in-out infinite;
+}
+.wave .dot-192 {
+  animation: move-192 3s ease-in-out infinite;
+}
+.wave .dot-193 {
+  animation: move-193 3s ease-in-out infinite;
+}
+.wave .dot-194 {
+  animation: move-194 3s ease-in-out infinite;
+}
+.wave .dot-195 {
+  animation: move-195 3s ease-in-out infinite;
+}
+.wave .dot-196 {
+  animation: move-196 3s ease-in-out infinite;
+}
+.wave .dot-197 {
+  animation: move-197 3s ease-in-out infinite;
+}
+.wave .dot-198 {
+  animation: move-198 3s ease-in-out infinite;
+}
+.wave .dot-199 {
+  animation: move-199 3s ease-in-out infinite;
+}
+.wave .dot-200 {
+  animation: move-200 3s ease-in-out infinite;
+}
+
+@keyframes move-1 {
+  0%, 100% {
+    transform: translateY(-0.0142857143px);
+  }
+  50% {
+    transform: translateY(0.0142857143px);
+  }
+}
+@keyframes move-2 {
+  0%, 100% {
+    transform: translateY(-0.0571428571px);
+  }
+  50% {
+    transform: translateY(0.0571428571px);
+  }
+}
+@keyframes move-3 {
+  0%, 100% {
+    transform: translateY(-0.1285714286px);
+  }
+  50% {
+    transform: translateY(0.1285714286px);
+  }
+}
+@keyframes move-4 {
+  0%, 100% {
+    transform: translateY(-0.2285714286px);
+  }
+  50% {
+    transform: translateY(0.2285714286px);
+  }
+}
+@keyframes move-5 {
+  0%, 100% {
+    transform: translateY(-0.3571428571px);
+  }
+  50% {
+    transform: translateY(0.3571428571px);
+  }
+}
+@keyframes move-6 {
+  0%, 100% {
+    transform: translateY(-0.5142857143px);
+  }
+  50% {
+    transform: translateY(0.5142857143px);
+  }
+}
+@keyframes move-7 {
+  0%, 100% {
+    transform: translateY(-0.7px);
+  }
+  50% {
+    transform: translateY(0.7px);
+  }
+}
+@keyframes move-8 {
+  0%, 100% {
+    transform: translateY(-0.9142857143px);
+  }
+  50% {
+    transform: translateY(0.9142857143px);
+  }
+}
+@keyframes move-9 {
+  0%, 100% {
+    transform: translateY(-1.1571428571px);
+  }
+  50% {
+    transform: translateY(1.1571428571px);
+  }
+}
+@keyframes move-10 {
+  0%, 100% {
+    transform: translateY(-1.4285714286px);
+  }
+  50% {
+    transform: translateY(1.4285714286px);
+  }
+}
+@keyframes move-11 {
+  0%, 100% {
+    transform: translateY(-1.7285714286px);
+  }
+  50% {
+    transform: translateY(1.7285714286px);
+  }
+}
+@keyframes move-12 {
+  0%, 100% {
+    transform: translateY(-2.0571428571px);
+  }
+  50% {
+    transform: translateY(2.0571428571px);
+  }
+}
+@keyframes move-13 {
+  0%, 100% {
+    transform: translateY(-2.4142857143px);
+  }
+  50% {
+    transform: translateY(2.4142857143px);
+  }
+}
+@keyframes move-14 {
+  0%, 100% {
+    transform: translateY(-2.8px);
+  }
+  50% {
+    transform: translateY(2.8px);
+  }
+}
+@keyframes move-15 {
+  0%, 100% {
+    transform: translateY(-3.2142857143px);
+  }
+  50% {
+    transform: translateY(3.2142857143px);
+  }
+}
+@keyframes move-16 {
+  0%, 100% {
+    transform: translateY(-3.6571428571px);
+  }
+  50% {
+    transform: translateY(3.6571428571px);
+  }
+}
+@keyframes move-17 {
+  0%, 100% {
+    transform: translateY(-4.1285714286px);
+  }
+  50% {
+    transform: translateY(4.1285714286px);
+  }
+}
+@keyframes move-18 {
+  0%, 100% {
+    transform: translateY(-4.6285714286px);
+  }
+  50% {
+    transform: translateY(4.6285714286px);
+  }
+}
+@keyframes move-19 {
+  0%, 100% {
+    transform: translateY(-5.1571428571px);
+  }
+  50% {
+    transform: translateY(5.1571428571px);
+  }
+}
+@keyframes move-20 {
+  0%, 100% {
+    transform: translateY(-5.7142857143px);
+  }
+  50% {
+    transform: translateY(5.7142857143px);
+  }
+}
+@keyframes move-21 {
+  0%, 100% {
+    transform: translateY(-6.3px);
+  }
+  50% {
+    transform: translateY(6.3px);
+  }
+}
+@keyframes move-22 {
+  0%, 100% {
+    transform: translateY(-6.9142857143px);
+  }
+  50% {
+    transform: translateY(6.9142857143px);
+  }
+}
+@keyframes move-23 {
+  0%, 100% {
+    transform: translateY(-7.5571428571px);
+  }
+  50% {
+    transform: translateY(7.5571428571px);
+  }
+}
+@keyframes move-24 {
+  0%, 100% {
+    transform: translateY(-8.2285714286px);
+  }
+  50% {
+    transform: translateY(8.2285714286px);
+  }
+}
+@keyframes move-25 {
+  0%, 100% {
+    transform: translateY(-8.9285714286px);
+  }
+  50% {
+    transform: translateY(8.9285714286px);
+  }
+}
+@keyframes move-26 {
+  0%, 100% {
+    transform: translateY(-9.6571428571px);
+  }
+  50% {
+    transform: translateY(9.6571428571px);
+  }
+}
+@keyframes move-27 {
+  0%, 100% {
+    transform: translateY(-10.4142857143px);
+  }
+  50% {
+    transform: translateY(10.4142857143px);
+  }
+}
+@keyframes move-28 {
+  0%, 100% {
+    transform: translateY(-11.2px);
+  }
+  50% {
+    transform: translateY(11.2px);
+  }
+}
+@keyframes move-29 {
+  0%, 100% {
+    transform: translateY(-12.0142857143px);
+  }
+  50% {
+    transform: translateY(12.0142857143px);
+  }
+}
+@keyframes move-30 {
+  0%, 100% {
+    transform: translateY(-12.8571428571px);
+  }
+  50% {
+    transform: translateY(12.8571428571px);
+  }
+}
+@keyframes move-31 {
+  0%, 100% {
+    transform: translateY(-13.7285714286px);
+  }
+  50% {
+    transform: translateY(13.7285714286px);
+  }
+}
+@keyframes move-32 {
+  0%, 100% {
+    transform: translateY(-14.6285714286px);
+  }
+  50% {
+    transform: translateY(14.6285714286px);
+  }
+}
+@keyframes move-33 {
+  0%, 100% {
+    transform: translateY(-15.5571428571px);
+  }
+  50% {
+    transform: translateY(15.5571428571px);
+  }
+}
+@keyframes move-34 {
+  0%, 100% {
+    transform: translateY(-16.5142857143px);
+  }
+  50% {
+    transform: translateY(16.5142857143px);
+  }
+}
+@keyframes move-35 {
+  0%, 100% {
+    transform: translateY(-17.5px);
+  }
+  50% {
+    transform: translateY(17.5px);
+  }
+}
+@keyframes move-36 {
+  0%, 100% {
+    transform: translateY(-18.5142857143px);
+  }
+  50% {
+    transform: translateY(18.5142857143px);
+  }
+}
+@keyframes move-37 {
+  0%, 100% {
+    transform: translateY(-19.5571428571px);
+  }
+  50% {
+    transform: translateY(19.5571428571px);
+  }
+}
+@keyframes move-38 {
+  0%, 100% {
+    transform: translateY(-20.6285714286px);
+  }
+  50% {
+    transform: translateY(20.6285714286px);
+  }
+}
+@keyframes move-39 {
+  0%, 100% {
+    transform: translateY(-21.7285714286px);
+  }
+  50% {
+    transform: translateY(21.7285714286px);
+  }
+}
+@keyframes move-40 {
+  0%, 100% {
+    transform: translateY(-22.8571428571px);
+  }
+  50% {
+    transform: translateY(22.8571428571px);
+  }
+}
+@keyframes move-41 {
+  0%, 100% {
+    transform: translateY(-24.0142857143px);
+  }
+  50% {
+    transform: translateY(24.0142857143px);
+  }
+}
+@keyframes move-42 {
+  0%, 100% {
+    transform: translateY(-25.2px);
+  }
+  50% {
+    transform: translateY(25.2px);
+  }
+}
+@keyframes move-43 {
+  0%, 100% {
+    transform: translateY(-26.4142857143px);
+  }
+  50% {
+    transform: translateY(26.4142857143px);
+  }
+}
+@keyframes move-44 {
+  0%, 100% {
+    transform: translateY(-27.6571428571px);
+  }
+  50% {
+    transform: translateY(27.6571428571px);
+  }
+}
+@keyframes move-45 {
+  0%, 100% {
+    transform: translateY(-28.9285714286px);
+  }
+  50% {
+    transform: translateY(28.9285714286px);
+  }
+}
+@keyframes move-46 {
+  0%, 100% {
+    transform: translateY(-30.2285714286px);
+  }
+  50% {
+    transform: translateY(30.2285714286px);
+  }
+}
+@keyframes move-47 {
+  0%, 100% {
+    transform: translateY(-31.5571428571px);
+  }
+  50% {
+    transform: translateY(31.5571428571px);
+  }
+}
+@keyframes move-48 {
+  0%, 100% {
+    transform: translateY(-32.9142857143px);
+  }
+  50% {
+    transform: translateY(32.9142857143px);
+  }
+}
+@keyframes move-49 {
+  0%, 100% {
+    transform: translateY(-34.3px);
+  }
+  50% {
+    transform: translateY(34.3px);
+  }
+}
+@keyframes move-50 {
+  0%, 100% {
+    transform: translateY(-35.7142857143px);
+  }
+  50% {
+    transform: translateY(35.7142857143px);
+  }
+}
+@keyframes move-51 {
+  0%, 100% {
+    transform: translateY(-37.1571428571px);
+  }
+  50% {
+    transform: translateY(37.1571428571px);
+  }
+}
+@keyframes move-52 {
+  0%, 100% {
+    transform: translateY(-38.6285714286px);
+  }
+  50% {
+    transform: translateY(38.6285714286px);
+  }
+}
+@keyframes move-53 {
+  0%, 100% {
+    transform: translateY(-40.1285714286px);
+  }
+  50% {
+    transform: translateY(40.1285714286px);
+  }
+}
+@keyframes move-54 {
+  0%, 100% {
+    transform: translateY(-41.6571428571px);
+  }
+  50% {
+    transform: translateY(41.6571428571px);
+  }
+}
+@keyframes move-55 {
+  0%, 100% {
+    transform: translateY(-43.2142857143px);
+  }
+  50% {
+    transform: translateY(43.2142857143px);
+  }
+}
+@keyframes move-56 {
+  0%, 100% {
+    transform: translateY(-44.8px);
+  }
+  50% {
+    transform: translateY(44.8px);
+  }
+}
+@keyframes move-57 {
+  0%, 100% {
+    transform: translateY(-46.4142857143px);
+  }
+  50% {
+    transform: translateY(46.4142857143px);
+  }
+}
+@keyframes move-58 {
+  0%, 100% {
+    transform: translateY(-48.0571428571px);
+  }
+  50% {
+    transform: translateY(48.0571428571px);
+  }
+}
+@keyframes move-59 {
+  0%, 100% {
+    transform: translateY(-49.7285714286px);
+  }
+  50% {
+    transform: translateY(49.7285714286px);
+  }
+}
+@keyframes move-60 {
+  0%, 100% {
+    transform: translateY(-51.4285714286px);
+  }
+  50% {
+    transform: translateY(51.4285714286px);
+  }
+}
+@keyframes move-61 {
+  0%, 100% {
+    transform: translateY(-53.1571428571px);
+  }
+  50% {
+    transform: translateY(53.1571428571px);
+  }
+}
+@keyframes move-62 {
+  0%, 100% {
+    transform: translateY(-54.9142857143px);
+  }
+  50% {
+    transform: translateY(54.9142857143px);
+  }
+}
+@keyframes move-63 {
+  0%, 100% {
+    transform: translateY(-56.7px);
+  }
+  50% {
+    transform: translateY(56.7px);
+  }
+}
+@keyframes move-64 {
+  0%, 100% {
+    transform: translateY(-58.5142857143px);
+  }
+  50% {
+    transform: translateY(58.5142857143px);
+  }
+}
+@keyframes move-65 {
+  0%, 100% {
+    transform: translateY(-60.3571428571px);
+  }
+  50% {
+    transform: translateY(60.3571428571px);
+  }
+}
+@keyframes move-66 {
+  0%, 100% {
+    transform: translateY(-62.2285714286px);
+  }
+  50% {
+    transform: translateY(62.2285714286px);
+  }
+}
+@keyframes move-67 {
+  0%, 100% {
+    transform: translateY(-64.1285714286px);
+  }
+  50% {
+    transform: translateY(64.1285714286px);
+  }
+}
+@keyframes move-68 {
+  0%, 100% {
+    transform: translateY(-66.0571428571px);
+  }
+  50% {
+    transform: translateY(66.0571428571px);
+  }
+}
+@keyframes move-69 {
+  0%, 100% {
+    transform: translateY(-68.0142857143px);
+  }
+  50% {
+    transform: translateY(68.0142857143px);
+  }
+}
+@keyframes move-70 {
+  0%, 100% {
+    transform: translateY(-70px);
+  }
+  50% {
+    transform: translateY(70px);
+  }
+}
+@keyframes move-71 {
+  0%, 100% {
+    transform: translateY(-72.0142857143px);
+  }
+  50% {
+    transform: translateY(72.0142857143px);
+  }
+}
+@keyframes move-72 {
+  0%, 100% {
+    transform: translateY(-74.0571428571px);
+  }
+  50% {
+    transform: translateY(74.0571428571px);
+  }
+}
+@keyframes move-73 {
+  0%, 100% {
+    transform: translateY(-76.1285714286px);
+  }
+  50% {
+    transform: translateY(76.1285714286px);
+  }
+}
+@keyframes move-74 {
+  0%, 100% {
+    transform: translateY(-78.2285714286px);
+  }
+  50% {
+    transform: translateY(78.2285714286px);
+  }
+}
+@keyframes move-75 {
+  0%, 100% {
+    transform: translateY(-80.3571428571px);
+  }
+  50% {
+    transform: translateY(80.3571428571px);
+  }
+}
+@keyframes move-76 {
+  0%, 100% {
+    transform: translateY(-82.5142857143px);
+  }
+  50% {
+    transform: translateY(82.5142857143px);
+  }
+}
+@keyframes move-77 {
+  0%, 100% {
+    transform: translateY(-84.7px);
+  }
+  50% {
+    transform: translateY(84.7px);
+  }
+}
+@keyframes move-78 {
+  0%, 100% {
+    transform: translateY(-86.9142857143px);
+  }
+  50% {
+    transform: translateY(86.9142857143px);
+  }
+}
+@keyframes move-79 {
+  0%, 100% {
+    transform: translateY(-89.1571428571px);
+  }
+  50% {
+    transform: translateY(89.1571428571px);
+  }
+}
+@keyframes move-80 {
+  0%, 100% {
+    transform: translateY(-91.4285714286px);
+  }
+  50% {
+    transform: translateY(91.4285714286px);
+  }
+}
+@keyframes move-81 {
+  0%, 100% {
+    transform: translateY(-93.7285714286px);
+  }
+  50% {
+    transform: translateY(93.7285714286px);
+  }
+}
+@keyframes move-82 {
+  0%, 100% {
+    transform: translateY(-96.0571428571px);
+  }
+  50% {
+    transform: translateY(96.0571428571px);
+  }
+}
+@keyframes move-83 {
+  0%, 100% {
+    transform: translateY(-98.4142857143px);
+  }
+  50% {
+    transform: translateY(98.4142857143px);
+  }
+}
+@keyframes move-84 {
+  0%, 100% {
+    transform: translateY(-100.8px);
+  }
+  50% {
+    transform: translateY(100.8px);
+  }
+}
+@keyframes move-85 {
+  0%, 100% {
+    transform: translateY(-103.2142857143px);
+  }
+  50% {
+    transform: translateY(103.2142857143px);
+  }
+}
+@keyframes move-86 {
+  0%, 100% {
+    transform: translateY(-105.6571428571px);
+  }
+  50% {
+    transform: translateY(105.6571428571px);
+  }
+}
+@keyframes move-87 {
+  0%, 100% {
+    transform: translateY(-108.1285714286px);
+  }
+  50% {
+    transform: translateY(108.1285714286px);
+  }
+}
+@keyframes move-88 {
+  0%, 100% {
+    transform: translateY(-110.6285714286px);
+  }
+  50% {
+    transform: translateY(110.6285714286px);
+  }
+}
+@keyframes move-89 {
+  0%, 100% {
+    transform: translateY(-113.1571428571px);
+  }
+  50% {
+    transform: translateY(113.1571428571px);
+  }
+}
+@keyframes move-90 {
+  0%, 100% {
+    transform: translateY(-115.7142857143px);
+  }
+  50% {
+    transform: translateY(115.7142857143px);
+  }
+}
+@keyframes move-91 {
+  0%, 100% {
+    transform: translateY(-118.3px);
+  }
+  50% {
+    transform: translateY(118.3px);
+  }
+}
+@keyframes move-92 {
+  0%, 100% {
+    transform: translateY(-120.9142857143px);
+  }
+  50% {
+    transform: translateY(120.9142857143px);
+  }
+}
+@keyframes move-93 {
+  0%, 100% {
+    transform: translateY(-123.5571428571px);
+  }
+  50% {
+    transform: translateY(123.5571428571px);
+  }
+}
+@keyframes move-94 {
+  0%, 100% {
+    transform: translateY(-126.2285714286px);
+  }
+  50% {
+    transform: translateY(126.2285714286px);
+  }
+}
+@keyframes move-95 {
+  0%, 100% {
+    transform: translateY(-128.9285714286px);
+  }
+  50% {
+    transform: translateY(128.9285714286px);
+  }
+}
+@keyframes move-96 {
+  0%, 100% {
+    transform: translateY(-131.6571428571px);
+  }
+  50% {
+    transform: translateY(131.6571428571px);
+  }
+}
+@keyframes move-97 {
+  0%, 100% {
+    transform: translateY(-134.4142857143px);
+  }
+  50% {
+    transform: translateY(134.4142857143px);
+  }
+}
+@keyframes move-98 {
+  0%, 100% {
+    transform: translateY(-137.2px);
+  }
+  50% {
+    transform: translateY(137.2px);
+  }
+}
+@keyframes move-99 {
+  0%, 100% {
+    transform: translateY(-140.0142857143px);
+  }
+  50% {
+    transform: translateY(140.0142857143px);
+  }
+}
+@keyframes move-100 {
+  0%, 100% {
+    transform: translateY(-142.8571428571px);
+  }
+  50% {
+    transform: translateY(142.8571428571px);
+  }
+}
+@keyframes move-101 {
+  0%, 100% {
+    transform: translateY(-140.0142857143px);
+  }
+  50% {
+    transform: translateY(140.0142857143px);
+  }
+}
+@keyframes move-102 {
+  0%, 100% {
+    transform: translateY(-137.2px);
+  }
+  50% {
+    transform: translateY(137.2px);
+  }
+}
+@keyframes move-103 {
+  0%, 100% {
+    transform: translateY(-134.4142857143px);
+  }
+  50% {
+    transform: translateY(134.4142857143px);
+  }
+}
+@keyframes move-104 {
+  0%, 100% {
+    transform: translateY(-131.6571428571px);
+  }
+  50% {
+    transform: translateY(131.6571428571px);
+  }
+}
+@keyframes move-105 {
+  0%, 100% {
+    transform: translateY(-128.9285714286px);
+  }
+  50% {
+    transform: translateY(128.9285714286px);
+  }
+}
+@keyframes move-106 {
+  0%, 100% {
+    transform: translateY(-126.2285714286px);
+  }
+  50% {
+    transform: translateY(126.2285714286px);
+  }
+}
+@keyframes move-107 {
+  0%, 100% {
+    transform: translateY(-123.5571428571px);
+  }
+  50% {
+    transform: translateY(123.5571428571px);
+  }
+}
+@keyframes move-108 {
+  0%, 100% {
+    transform: translateY(-120.9142857143px);
+  }
+  50% {
+    transform: translateY(120.9142857143px);
+  }
+}
+@keyframes move-109 {
+  0%, 100% {
+    transform: translateY(-118.3px);
+  }
+  50% {
+    transform: translateY(118.3px);
+  }
+}
+@keyframes move-110 {
+  0%, 100% {
+    transform: translateY(-115.7142857143px);
+  }
+  50% {
+    transform: translateY(115.7142857143px);
+  }
+}
+@keyframes move-111 {
+  0%, 100% {
+    transform: translateY(-113.1571428571px);
+  }
+  50% {
+    transform: translateY(113.1571428571px);
+  }
+}
+@keyframes move-112 {
+  0%, 100% {
+    transform: translateY(-110.6285714286px);
+  }
+  50% {
+    transform: translateY(110.6285714286px);
+  }
+}
+@keyframes move-113 {
+  0%, 100% {
+    transform: translateY(-108.1285714286px);
+  }
+  50% {
+    transform: translateY(108.1285714286px);
+  }
+}
+@keyframes move-114 {
+  0%, 100% {
+    transform: translateY(-105.6571428571px);
+  }
+  50% {
+    transform: translateY(105.6571428571px);
+  }
+}
+@keyframes move-115 {
+  0%, 100% {
+    transform: translateY(-103.2142857143px);
+  }
+  50% {
+    transform: translateY(103.2142857143px);
+  }
+}
+@keyframes move-116 {
+  0%, 100% {
+    transform: translateY(-100.8px);
+  }
+  50% {
+    transform: translateY(100.8px);
+  }
+}
+@keyframes move-117 {
+  0%, 100% {
+    transform: translateY(-98.4142857143px);
+  }
+  50% {
+    transform: translateY(98.4142857143px);
+  }
+}
+@keyframes move-118 {
+  0%, 100% {
+    transform: translateY(-96.0571428571px);
+  }
+  50% {
+    transform: translateY(96.0571428571px);
+  }
+}
+@keyframes move-119 {
+  0%, 100% {
+    transform: translateY(-93.7285714286px);
+  }
+  50% {
+    transform: translateY(93.7285714286px);
+  }
+}
+@keyframes move-120 {
+  0%, 100% {
+    transform: translateY(-91.4285714286px);
+  }
+  50% {
+    transform: translateY(91.4285714286px);
+  }
+}
+@keyframes move-121 {
+  0%, 100% {
+    transform: translateY(-89.1571428571px);
+  }
+  50% {
+    transform: translateY(89.1571428571px);
+  }
+}
+@keyframes move-122 {
+  0%, 100% {
+    transform: translateY(-86.9142857143px);
+  }
+  50% {
+    transform: translateY(86.9142857143px);
+  }
+}
+@keyframes move-123 {
+  0%, 100% {
+    transform: translateY(-84.7px);
+  }
+  50% {
+    transform: translateY(84.7px);
+  }
+}
+@keyframes move-124 {
+  0%, 100% {
+    transform: translateY(-82.5142857143px);
+  }
+  50% {
+    transform: translateY(82.5142857143px);
+  }
+}
+@keyframes move-125 {
+  0%, 100% {
+    transform: translateY(-80.3571428571px);
+  }
+  50% {
+    transform: translateY(80.3571428571px);
+  }
+}
+@keyframes move-126 {
+  0%, 100% {
+    transform: translateY(-78.2285714286px);
+  }
+  50% {
+    transform: translateY(78.2285714286px);
+  }
+}
+@keyframes move-127 {
+  0%, 100% {
+    transform: translateY(-76.1285714286px);
+  }
+  50% {
+    transform: translateY(76.1285714286px);
+  }
+}
+@keyframes move-128 {
+  0%, 100% {
+    transform: translateY(-74.0571428571px);
+  }
+  50% {
+    transform: translateY(74.0571428571px);
+  }
+}
+@keyframes move-129 {
+  0%, 100% {
+    transform: translateY(-72.0142857143px);
+  }
+  50% {
+    transform: translateY(72.0142857143px);
+  }
+}
+@keyframes move-130 {
+  0%, 100% {
+    transform: translateY(-70px);
+  }
+  50% {
+    transform: translateY(70px);
+  }
+}
+@keyframes move-131 {
+  0%, 100% {
+    transform: translateY(-68.0142857143px);
+  }
+  50% {
+    transform: translateY(68.0142857143px);
+  }
+}
+@keyframes move-132 {
+  0%, 100% {
+    transform: translateY(-66.0571428571px);
+  }
+  50% {
+    transform: translateY(66.0571428571px);
+  }
+}
+@keyframes move-133 {
+  0%, 100% {
+    transform: translateY(-64.1285714286px);
+  }
+  50% {
+    transform: translateY(64.1285714286px);
+  }
+}
+@keyframes move-134 {
+  0%, 100% {
+    transform: translateY(-62.2285714286px);
+  }
+  50% {
+    transform: translateY(62.2285714286px);
+  }
+}
+@keyframes move-135 {
+  0%, 100% {
+    transform: translateY(-60.3571428571px);
+  }
+  50% {
+    transform: translateY(60.3571428571px);
+  }
+}
+@keyframes move-136 {
+  0%, 100% {
+    transform: translateY(-58.5142857143px);
+  }
+  50% {
+    transform: translateY(58.5142857143px);
+  }
+}
+@keyframes move-137 {
+  0%, 100% {
+    transform: translateY(-56.7px);
+  }
+  50% {
+    transform: translateY(56.7px);
+  }
+}
+@keyframes move-138 {
+  0%, 100% {
+    transform: translateY(-54.9142857143px);
+  }
+  50% {
+    transform: translateY(54.9142857143px);
+  }
+}
+@keyframes move-139 {
+  0%, 100% {
+    transform: translateY(-53.1571428571px);
+  }
+  50% {
+    transform: translateY(53.1571428571px);
+  }
+}
+@keyframes move-140 {
+  0%, 100% {
+    transform: translateY(-51.4285714286px);
+  }
+  50% {
+    transform: translateY(51.4285714286px);
+  }
+}
+@keyframes move-141 {
+  0%, 100% {
+    transform: translateY(-49.7285714286px);
+  }
+  50% {
+    transform: translateY(49.7285714286px);
+  }
+}
+@keyframes move-142 {
+  0%, 100% {
+    transform: translateY(-48.0571428571px);
+  }
+  50% {
+    transform: translateY(48.0571428571px);
+  }
+}
+@keyframes move-143 {
+  0%, 100% {
+    transform: translateY(-46.4142857143px);
+  }
+  50% {
+    transform: translateY(46.4142857143px);
+  }
+}
+@keyframes move-144 {
+  0%, 100% {
+    transform: translateY(-44.8px);
+  }
+  50% {
+    transform: translateY(44.8px);
+  }
+}
+@keyframes move-145 {
+  0%, 100% {
+    transform: translateY(-43.2142857143px);
+  }
+  50% {
+    transform: translateY(43.2142857143px);
+  }
+}
+@keyframes move-146 {
+  0%, 100% {
+    transform: translateY(-41.6571428571px);
+  }
+  50% {
+    transform: translateY(41.6571428571px);
+  }
+}
+@keyframes move-147 {
+  0%, 100% {
+    transform: translateY(-40.1285714286px);
+  }
+  50% {
+    transform: translateY(40.1285714286px);
+  }
+}
+@keyframes move-148 {
+  0%, 100% {
+    transform: translateY(-38.6285714286px);
+  }
+  50% {
+    transform: translateY(38.6285714286px);
+  }
+}
+@keyframes move-149 {
+  0%, 100% {
+    transform: translateY(-37.1571428571px);
+  }
+  50% {
+    transform: translateY(37.1571428571px);
+  }
+}
+@keyframes move-150 {
+  0%, 100% {
+    transform: translateY(-35.7142857143px);
+  }
+  50% {
+    transform: translateY(35.7142857143px);
+  }
+}
+@keyframes move-151 {
+  0%, 100% {
+    transform: translateY(-34.3px);
+  }
+  50% {
+    transform: translateY(34.3px);
+  }
+}
+@keyframes move-152 {
+  0%, 100% {
+    transform: translateY(-32.9142857143px);
+  }
+  50% {
+    transform: translateY(32.9142857143px);
+  }
+}
+@keyframes move-153 {
+  0%, 100% {
+    transform: translateY(-31.5571428571px);
+  }
+  50% {
+    transform: translateY(31.5571428571px);
+  }
+}
+@keyframes move-154 {
+  0%, 100% {
+    transform: translateY(-30.2285714286px);
+  }
+  50% {
+    transform: translateY(30.2285714286px);
+  }
+}
+@keyframes move-155 {
+  0%, 100% {
+    transform: translateY(-28.9285714286px);
+  }
+  50% {
+    transform: translateY(28.9285714286px);
+  }
+}
+@keyframes move-156 {
+  0%, 100% {
+    transform: translateY(-27.6571428571px);
+  }
+  50% {
+    transform: translateY(27.6571428571px);
+  }
+}
+@keyframes move-157 {
+  0%, 100% {
+    transform: translateY(-26.4142857143px);
+  }
+  50% {
+    transform: translateY(26.4142857143px);
+  }
+}
+@keyframes move-158 {
+  0%, 100% {
+    transform: translateY(-25.2px);
+  }
+  50% {
+    transform: translateY(25.2px);
+  }
+}
+@keyframes move-159 {
+  0%, 100% {
+    transform: translateY(-24.0142857143px);
+  }
+  50% {
+    transform: translateY(24.0142857143px);
+  }
+}
+@keyframes move-160 {
+  0%, 100% {
+    transform: translateY(-22.8571428571px);
+  }
+  50% {
+    transform: translateY(22.8571428571px);
+  }
+}
+@keyframes move-161 {
+  0%, 100% {
+    transform: translateY(-21.7285714286px);
+  }
+  50% {
+    transform: translateY(21.7285714286px);
+  }
+}
+@keyframes move-162 {
+  0%, 100% {
+    transform: translateY(-20.6285714286px);
+  }
+  50% {
+    transform: translateY(20.6285714286px);
+  }
+}
+@keyframes move-163 {
+  0%, 100% {
+    transform: translateY(-19.5571428571px);
+  }
+  50% {
+    transform: translateY(19.5571428571px);
+  }
+}
+@keyframes move-164 {
+  0%, 100% {
+    transform: translateY(-18.5142857143px);
+  }
+  50% {
+    transform: translateY(18.5142857143px);
+  }
+}
+@keyframes move-165 {
+  0%, 100% {
+    transform: translateY(-17.5px);
+  }
+  50% {
+    transform: translateY(17.5px);
+  }
+}
+@keyframes move-166 {
+  0%, 100% {
+    transform: translateY(-16.5142857143px);
+  }
+  50% {
+    transform: translateY(16.5142857143px);
+  }
+}
+@keyframes move-167 {
+  0%, 100% {
+    transform: translateY(-15.5571428571px);
+  }
+  50% {
+    transform: translateY(15.5571428571px);
+  }
+}
+@keyframes move-168 {
+  0%, 100% {
+    transform: translateY(-14.6285714286px);
+  }
+  50% {
+    transform: translateY(14.6285714286px);
+  }
+}
+@keyframes move-169 {
+  0%, 100% {
+    transform: translateY(-13.7285714286px);
+  }
+  50% {
+    transform: translateY(13.7285714286px);
+  }
+}
+@keyframes move-170 {
+  0%, 100% {
+    transform: translateY(-12.8571428571px);
+  }
+  50% {
+    transform: translateY(12.8571428571px);
+  }
+}
+@keyframes move-171 {
+  0%, 100% {
+    transform: translateY(-12.0142857143px);
+  }
+  50% {
+    transform: translateY(12.0142857143px);
+  }
+}
+@keyframes move-172 {
+  0%, 100% {
+    transform: translateY(-11.2px);
+  }
+  50% {
+    transform: translateY(11.2px);
+  }
+}
+@keyframes move-173 {
+  0%, 100% {
+    transform: translateY(-10.4142857143px);
+  }
+  50% {
+    transform: translateY(10.4142857143px);
+  }
+}
+@keyframes move-174 {
+  0%, 100% {
+    transform: translateY(-9.6571428571px);
+  }
+  50% {
+    transform: translateY(9.6571428571px);
+  }
+}
+@keyframes move-175 {
+  0%, 100% {
+    transform: translateY(-8.9285714286px);
+  }
+  50% {
+    transform: translateY(8.9285714286px);
+  }
+}
+@keyframes move-176 {
+  0%, 100% {
+    transform: translateY(-8.2285714286px);
+  }
+  50% {
+    transform: translateY(8.2285714286px);
+  }
+}
+@keyframes move-177 {
+  0%, 100% {
+    transform: translateY(-7.5571428571px);
+  }
+  50% {
+    transform: translateY(7.5571428571px);
+  }
+}
+@keyframes move-178 {
+  0%, 100% {
+    transform: translateY(-6.9142857143px);
+  }
+  50% {
+    transform: translateY(6.9142857143px);
+  }
+}
+@keyframes move-179 {
+  0%, 100% {
+    transform: translateY(-6.3px);
+  }
+  50% {
+    transform: translateY(6.3px);
+  }
+}
+@keyframes move-180 {
+  0%, 100% {
+    transform: translateY(-5.7142857143px);
+  }
+  50% {
+    transform: translateY(5.7142857143px);
+  }
+}
+@keyframes move-181 {
+  0%, 100% {
+    transform: translateY(-5.1571428571px);
+  }
+  50% {
+    transform: translateY(5.1571428571px);
+  }
+}
+@keyframes move-182 {
+  0%, 100% {
+    transform: translateY(-4.6285714286px);
+  }
+  50% {
+    transform: translateY(4.6285714286px);
+  }
+}
+@keyframes move-183 {
+  0%, 100% {
+    transform: translateY(-4.1285714286px);
+  }
+  50% {
+    transform: translateY(4.1285714286px);
+  }
+}
+@keyframes move-184 {
+  0%, 100% {
+    transform: translateY(-3.6571428571px);
+  }
+  50% {
+    transform: translateY(3.6571428571px);
+  }
+}
+@keyframes move-185 {
+  0%, 100% {
+    transform: translateY(-3.2142857143px);
+  }
+  50% {
+    transform: translateY(3.2142857143px);
+  }
+}
+@keyframes move-186 {
+  0%, 100% {
+    transform: translateY(-2.8px);
+  }
+  50% {
+    transform: translateY(2.8px);
+  }
+}
+@keyframes move-187 {
+  0%, 100% {
+    transform: translateY(-2.4142857143px);
+  }
+  50% {
+    transform: translateY(2.4142857143px);
+  }
+}
+@keyframes move-188 {
+  0%, 100% {
+    transform: translateY(-2.0571428571px);
+  }
+  50% {
+    transform: translateY(2.0571428571px);
+  }
+}
+@keyframes move-189 {
+  0%, 100% {
+    transform: translateY(-1.7285714286px);
+  }
+  50% {
+    transform: translateY(1.7285714286px);
+  }
+}
+@keyframes move-190 {
+  0%, 100% {
+    transform: translateY(-1.4285714286px);
+  }
+  50% {
+    transform: translateY(1.4285714286px);
+  }
+}
+@keyframes move-191 {
+  0%, 100% {
+    transform: translateY(-1.1571428571px);
+  }
+  50% {
+    transform: translateY(1.1571428571px);
+  }
+}
+@keyframes move-192 {
+  0%, 100% {
+    transform: translateY(-0.9142857143px);
+  }
+  50% {
+    transform: translateY(0.9142857143px);
+  }
+}
+@keyframes move-193 {
+  0%, 100% {
+    transform: translateY(-0.7px);
+  }
+  50% {
+    transform: translateY(0.7px);
+  }
+}
+@keyframes move-194 {
+  0%, 100% {
+    transform: translateY(-0.5142857143px);
+  }
+  50% {
+    transform: translateY(0.5142857143px);
+  }
+}
+@keyframes move-195 {
+  0%, 100% {
+    transform: translateY(-0.3571428571px);
+  }
+  50% {
+    transform: translateY(0.3571428571px);
+  }
+}
+@keyframes move-196 {
+  0%, 100% {
+    transform: translateY(-0.2285714286px);
+  }
+  50% {
+    transform: translateY(0.2285714286px);
+  }
+}
+@keyframes move-197 {
+  0%, 100% {
+    transform: translateY(-0.1285714286px);
+  }
+  50% {
+    transform: translateY(0.1285714286px);
+  }
+}
+@keyframes move-198 {
+  0%, 100% {
+    transform: translateY(-0.0571428571px);
+  }
+  50% {
+    transform: translateY(0.0571428571px);
+  }
+}
+@keyframes move-199 {
+  0%, 100% {
+    transform: translateY(-0.0142857143px);
+  }
+  50% {
+    transform: translateY(0.0142857143px);
+  }
+}
+@keyframes move-200 {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}/*# sourceMappingURL=style.css.map */
